@@ -1,4 +1,6 @@
-export default Main() {
+
+
+export default function Main() {
     return (
         <div>
             <h1>Why learning React</h1>

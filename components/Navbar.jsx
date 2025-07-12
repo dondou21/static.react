@@ -1,8 +1,15 @@
+
+import logo from '../src/react.png';
+ 
+console.log(logo)
 export default function Navbar() {
     return (
-        <>
-            <img src="../src/react.png" className="logo" alt="React-Logo" />
-            <Span>React Learning</Span>
+        <div className='navBar'>
+            <nav className='logo-title' >
+                <img src= {logo} className="logo" alt="React-Logo" />
+                <span>React Learning</span>
+            </nav> 
+            
             <ul className="nav-links">
                 <li>HomePage</li>
                 <li>About</li>
@@ -10,6 +17,6 @@ export default function Navbar() {
                 <li>Blog</li>
                 <li>Services</li>
             </ul>
-        </>
+        </div>
     )
 }
