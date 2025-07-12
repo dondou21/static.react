@@ -11,12 +11,12 @@ export default function Navbar() {
             </nav> 
             
             <ul className="nav-links">
-                <li>HomePage</li>
                 <li>About</li>
                 <li>Contact</li>
+                <li>HomePage</li>
                 <li>Blog</li>
                 <li>Services</li>
             </ul>
         </div>
     )
-}
+}   
